@@ -553,6 +553,161 @@ footer {
     color: white;
     font-size: 0.5em;
 }
+
+/** MEDIA QUERY from 360px to 480px **/
+@media screen and (min-width: 376px)  {
+
+    #navbar{
+        height: 10vh;
+    }
+
+    .navdiv > a > h1 {
+        font-size: 4em;
+    }
+
+    .navdiv > hr {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .navdiv > h2 {
+        font-size: 2em;
+        letter-spacing: 0.5em;
+        word-spacing: 1em;
+        margin-left: -10%;
+
+    }
+
+    .navdiv {
+        margin-left: 15%;
+        justify-content: space-around;
+    }
+    
+    .div-remember > h1 {
+        text-align: center;
+        font-size: 2em;
+        margin-top: 20%;
+        padding-top: 30%;
+        margin: 0 5%;
+        margin-bottom: 5%;
+    }
+    
+    .div-remember-button {
+        margin-left: 32%;
+    }
+    
+    .section-2 {
+        padding-top: 30%;
+    }
+    
+    .section-2-div-1 {
+        width: 100%;
+    }
+    
+    .section-2-div-1 > h2 {
+        padding: 5% 5%;
+    }
+    
+    .section-2-div-2-box {
+        width: 90%;
+        padding: 0 10%;
+    }
+    
+    .section-2-div-2-box > .fa-shopping-cart,
+    .section-2-div-2-box > .fa-book,
+    .section-2-div-2-box > .fa-portrait,
+    .section-2-div-2-box > .fa-tools{
+        text-align: center;
+        margin-left: 4%;
+    }
+    
+    .section-3 {
+        padding-top: 30%;    
+    }
+    
+    .section-3 > h2 {
+        display: block;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    
+    .album-showcase > li  {
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+    .section-upload {
+        display: inline-block;
+        margin-bottom: -25%;
+        padding-top: 30%;
+    }
+    
+    .section-upload-div-1 > h1 {
+        margin-bottom: 5%;
+    }
+    
+    .fa-upload {
+        margin-left: -5%;
+        margin-bottom: 2%;
+    }
+    
+    .section-upload-div-2-4 > a {
+        margin-left: -8%;
+    }
+    
+    .section-4 {
+        display: inline-block;   
+        padding-top: 30%;
+    }
+    
+    .section-4-div-1 > h2 {
+        padding: 0 5%;
+        font-size: 1.7em;
+    }
+    
+    .section-4-div-form > div > input { 
+        width: 70%;
+    }
+    
+    #message {
+        width: 70%;
+    }
+    
+    .newsletter {
+        width: 70%;
+    }
+    .section-4-div-2 {
+        margin-left: -15%;
+    }
+    
+    .footer-div-1 {
+        display: block;
+    }
+    
+    .footer-div-1-1 {
+        width: 100%;
+    }
+    
+    .footer-div-1-1 > ul > li {
+        font-size: 0.5em;
+    }
+    
+    .footer-div-1-2 {
+        width: 100%;
+    }
+    
+    .footer-div-1-2 > ul {
+        margin-left: -20%;
+        padding-left: 22%;
+    }
+    
+    footer {
+        height: 30vh;
+    }
+
+}
+
+
 /** MEDIA QUERY from 481px to 767px **/
 @media (min-width: 568px) and (max-width: 767px) {
     .navdiv {
@@ -807,135 +962,6 @@ footer {
     }
 }
 
-/** MEDIA QUERY from 360px to 480px **/
-@media (min-width: 360px) and (max-width: 480px) {
-    .navdiv {
-        margin-left: 27%;
-        justify-content: space-around;
-    }
-    
-    .div-remember > h1 {
-        text-align: center;
-        font-size: 2em;
-        margin-top: 20%;
-        padding-top: 30%;
-        margin: 0 5%;
-        margin-bottom: 5%;
-    }
-    
-    .div-remember-button {
-        margin-left: 32%;
-    }
-    
-    .section-2 {
-        padding-top: 30%;
-    }
-    
-    .section-2-div-1 {
-        width: 100%;
-    }
-    
-    .section-2-div-1 > h2 {
-        padding: 5% 5%;
-    }
-    
-    .section-2-div-2-box {
-        width: 90%;
-        padding: 0 10%;
-    }
-    
-    .section-2-div-2-box > .fa-shopping-cart,
-    .section-2-div-2-box > .fa-book,
-    .section-2-div-2-box > .fa-portrait,
-    .section-2-div-2-box > .fa-tools{
-        text-align: center;
-        margin-left: 4%;
-    }
-    
-    .section-3 {
-        padding-top: 30%;    
-    }
-    
-    .section-3 > h2 {
-        display: block;
-        text-align: center;
-        margin-bottom: 5%;
-    }
-    
-    .album-showcase > li  {
-        width: 60%;
-        margin-left: 20%;
-    }
-    
-    .section-upload {
-        display: inline-block;
-        margin-bottom: -25%;
-        padding-top: 30%;
-    }
-    
-    .section-upload-div-1 > h1 {
-        margin-bottom: 5%;
-    }
-    
-    .fa-upload {
-        margin-left: -5%;
-        margin-bottom: 2%;
-    }
-    
-    .section-upload-div-2-4 > a {
-        margin-left: -8%;
-    }
-    
-    .section-4 {
-        display: inline-block;   
-        padding-top: 30%;
-    }
-    
-    .section-4-div-1 > h2 {
-        padding: 0 5%;
-        font-size: 1.7em;
-    }
-    
-    .section-4-div-form > div > input { 
-        width: 70%;
-    }
-    
-    #message {
-        width: 70%;
-    }
-    
-    .newsletter {
-        width: 70%;
-    }
-    .section-4-div-2 {
-        margin-left: -15%;
-    }
-    
-    .footer-div-1 {
-        display: block;
-    }
-    
-    .footer-div-1-1 {
-        width: 100%;
-    }
-    
-    .footer-div-1-1 > ul > li {
-        font-size: 0.5em;
-    }
-    
-    .footer-div-1-2 {
-        width: 100%;
-    }
-    
-    .footer-div-1-2 > ul {
-        margin-left: -20%;
-        padding-left: 22%;
-    }
-    
-    footer {
-        height: 30vh;
-    }
 
-}
 
 /** end of my code signed by Nicholas Hernandez **/
