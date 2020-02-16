@@ -555,7 +555,7 @@ footer {
 }
 
 /** MEDIA QUERY from 360px to 480px **/
-@media screen and (min-width: 376px)  {
+@media screen and (min-width: 376px) and (max-width: 480px) {
 
     #navbar{
         height: 10vh;
