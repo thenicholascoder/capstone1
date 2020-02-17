@@ -23,6 +23,11 @@ p {
     letter-spacing: 1px;    
 }
 
+#newsh1 , #news{
+    margin:0;
+    padding:0;
+    font-size:  1em;
+}
 /** SECTION 1 STARTS HERE **/
 .section-1 {
     height: 100vh;
@@ -554,11 +559,34 @@ footer {
     font-size: 0.5em;
 }
 
+
 /** MEDIA QUERY from 360px to 480px **/
-@media screen and (min-width: 376px) and (max-width: 480px) {
+@media screen and (min-device-width: 360px) and (max-device-width: 480px){
+
+    footer{
+        height:20vh;
+    }
+
+    .footer-div-1-1 > ul > li > a {
+        font-size: 4em;
+    }
+
+    .footer-div-1-2 > ul > li > a {
+        font-size: 3em;
+    }
+
+    #footer{
+        height:10vh;
+    }
+
+    .footer-div-2{
+        font-size: 4em;
+        padding: 0 5%;
+    }
 
     #navbar{
         height: 10vh;
+        z-index: 10;
     }
 
     .navdiv > a > h1 {
@@ -570,12 +598,97 @@ footer {
         margin-left: 15%;
     }
 
-    .navdiv > h2 {
-        font-size: 2em;
-        letter-spacing: 0.5em;
-        word-spacing: 1em;
-        margin-left: -10%;
 
+#remember-h1{
+    font-size:  5em;
+    margin-top:     20%;
+}
+
+
+.div-remember-button{
+    display:block;
+    padding: 5% 5%;
+    margin-left:-7%;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom:  5%;
+}
+
+#div-remember-button{
+margin-top: 20%;
+margin-left: 15%;
+margin-right: 15%;
+}
+
+.div-remember-button2{
+    display:block;
+    padding: 5% 5%;
+    margin-left:-7%;
+    font-size: 3em;
+    text-align: center;
+}
+
+#div-remember-button2{
+margin-left: 15%;
+margin-right: 15%;
+}
+
+#section-2-div-1-h2{
+    font-size:5em;
+    margin-bottom:-3%;
+}
+
+
+#hr-section-2-div-1{
+    width:30%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+}
+
+#fas-shopping-cart{
+    font-size: 10em;
+    margin-left: -5%;
+}
+
+#fas-tools{
+    font-size: 10em;
+    margin-left: -3%;
+}
+
+
+#fas{
+    font-size: 10em;
+    margin-left: 0%;
+}
+
+#section-2-div-1-p{
+    font-size:3em;
+    margin-bottom: 10%;
+}
+
+#p-fas{
+    font-size: 3em;
+    text-align:     center;
+}
+
+#fas-title{
+    font-family: 'Roboto Slab';
+    font-size: 4em;
+    color:#333;
+}
+
+
+
+    .navdiv > h2 {
+        font-size: 1.5em;
+        letter-spacing: 1em;
+        word-spacing: 1em;
+        margin-left: -12%;
+
+    }
+
+    .div-remember > h1 {
+        font-size: 200em;
     }
 
     .navdiv {
@@ -592,6 +705,40 @@ footer {
         margin-bottom: 5%;
     }
     
+    #section-upload-div-1-h1{
+        font-size: 5em;
+    }
+
+    #section-upload-div-2{
+        height:65vh;
+    }
+
+    #fas-upload{
+        margin-top:     30%;
+        font-size: 15em;
+        align-items: center;
+        margin-left: -12%;
+    }
+
+    #section-upload-div-2-2-p{
+        font-size: 5em;
+    }
+
+    #section-upload-div-2-3-p{
+        font-size: 3em;
+        margin-bottom:  20%;
+    }
+
+    #section-upload-div-2-4-button-id{
+        font-size: 3em;
+padding:0;
+margin: 0;
+padding: 10% 30%;
+align-items: auto;
+margin-left: -50%;
+margin-top: 20%;
+    }
+
     .div-remember-button {
         margin-left: 32%;
     }
@@ -620,7 +767,60 @@ footer {
         text-align: center;
         margin-left: 4%;
     }
+
+    #gallery-section-3{
+        font-size:  5em;
+        font-family: 'Roboto Slab';
+    }
+
+    #section-4-div-1-h2{
+        font-size: 5em;
+    }
     
+#section-4-div-form-name {
+    font-size:  3em;
+}
+
+#inputinput{
+    font-size: 3em;
+    padding: 5% 5%;
+    border:1px solid grey;
+    border-radius:  1em;
+}
+#inputinputinput{
+    font-size: 3em;
+    padding: 5% 5%;
+    border:1px solid grey;
+    border-radius:  1em;
+}
+#news{
+    display:inline-block;
+    margin-left: -20%;
+
+    padding: 5%;
+    height:     2vh;
+}
+
+#newsh1{
+        font-size: 2em;
+margin-left:    
+}
+
+#submit{
+    padding:6% 15%;
+    font-size: 3em;
+}
+
+#select{
+    font-size: 3em;
+    padding:5% 5%;
+    border-radius:  1em;
+}
+
+#value{
+    font-size:  0.2em;
+}
+
     .section-3 {
         padding-top: 30%;    
     }
@@ -706,262 +906,4 @@ footer {
     }
 
 }
-
-
-/** MEDIA QUERY from 481px to 767px **/
-@media (min-width: 568px) and (max-width: 767px) {
-    .navdiv {
-        margin-left: 30%;
-        justify-content: space-around;
-    }
-    
-    .div-remember > h1 {
-        text-align: center;
-        margin-top: 20%;
-        margin-left: -5%;
-        margin-bottom: 5%;
-    }
-    
-    .div-remember-button {
-        margin-left: 32%;
-    }
-    
-    .section-2-div-1 {
-        width: 100%;
-        padding-top: 30%;
-    }
-    
-    .section-2-div-1 > h2 {
-        padding: 5% 5%;
-    }
-    
-    .section-2-div-2-box {
-        width: 90%;
-        padding: 0 10%;
-    }
-    
-    .section-2-div-2-box > .fa-shopping-cart,
-    .section-2-div-2-box > .fa-book,
-    .section-2-div-2-box > .fa-portrait,
-    .section-2-div-2-box > .fa-tools{
-        text-align: center;
-        margin-left: 4%;
-    }
-    
-    .section-3 {
-        padding-top: 20%;
-    }
-    
-    .section-3 > h2 {
-        display: block;
-        text-align: center;
-        margin-bottom: 5%;
-    }
-    
-    .album-showcase > li  {
-        width: 60%;
-        margin-left: 20%;
-    }
-    
-    .section-upload {
-        display: inline-block;
-        padding: 23% 0;
-    }
-    
-    .section-upload-div-1 > h1 {
-        margin-bottom: 5%;
-    }
-    
-    .fa-upload {
-        margin-left: -5%;
-        margin-bottom: 2%;
-    }
-    
-    .section-upload-div-2-4 > a {
-        margin-left: -5%;
-    }
-    
-    .section-4 {
-        display: inline-block;   
-        padding-top: 20%;
-    }
-    
-    .section-4-div-form > div > input { 
-        width: 70%;
-    }
-    
-    #message {
-        width: 70%;
-    }
-    
-    .newsletter {
-        width: 70%;
-    }
-    .section-4-div-2 {
-        margin-left: -15%;
-    }
-    
-    .footer-div-1 {
-        display: block;
-    }
-    
-    .footer-div-1-1 {
-        width: 100%;
-    }
-    
-    .footer-div-1-1 > ul > li {
-        padding-left: 2%;
-        font-size: 0.8em;
-    }
-    
-    .footer-div-1-2 {
-        width: 100%;
-    }
-    
-    .footer-div-1-2 > ul {
-        margin-left: -10%;
-        padding-left: 22%;
-    }
-    
-    .footer-div-2 {
-        padding: 0 5%;
-    }
-    
-    footer {
-        height: 30vh;
-    }
-}
-
-/** MEDIA QUERY from 481px to 567px **/
-@media (min-width: 481px) and (max-width: 567px) {
-    .navdiv {
-        margin-left: 27%;
-        justify-content: space-around;
-    }
-    
-    .div-remember > h1 {
-        text-align: center;
-        font-size: 2em;
-        margin-top: 20%;
-        padding-top: 30%;
-        margin: 0 5%;
-        margin-bottom: 5%;
-    }
-    
-    .div-remember-button {
-        margin-left: 32%;
-    }
-    
-    .section-2 {
-        padding-top: 30%;
-    }
-    
-    .section-2-div-1 {
-        width: 100%;
-    }
-    
-    .section-2-div-1 > h2 {
-        padding: 5% 5%;
-    }
-    
-    .section-2-div-2-box {
-        width: 90%;
-        padding: 0 10%;
-    }
-    
-    .section-2-div-2-box > .fa-shopping-cart,
-    .section-2-div-2-box > .fa-book,
-    .section-2-div-2-box > .fa-portrait,
-    .section-2-div-2-box > .fa-tools{
-        text-align: center;
-        margin-left: 4%;
-    }
-    
-    .section-3 {
-        padding-top: 30%;    
-    }
-    
-    .section-3 > h2 {
-        display: block;
-        text-align: center;
-        margin-bottom: 5%;
-    }
-    
-    .album-showcase > li  {
-        width: 60%;
-        margin-left: 20%;
-    }
-    
-    .section-upload {
-        display: inline-block;
-        margin-bottom: -25%;
-        padding-top: 30%;
-    }
-    
-    .section-upload-div-1 > h1 {
-        margin-bottom: 5%;
-    }
-    
-    .fa-upload {
-        margin-left: -5%;
-        margin-bottom: 2%;
-    }
-    
-    .section-upload-div-2-4 > a {
-        margin-left: -8%;
-    }
-    
-    .section-4 {
-        display: inline-block;   
-        padding-top: 30%;
-    }
-    
-    .section-4-div-1 > h2 {
-        padding: 0 5%;
-        font-size: 1.7em;
-    }
-    
-    .section-4-div-form > div > input { 
-        width: 70%;
-    }
-    
-    #message {
-        width: 70%;
-    }
-    
-    .newsletter {
-        width: 70%;
-    }
-    .section-4-div-2 {
-        margin-left: -15%;
-    }
-    
-    .footer-div-1 {
-        display: block;
-    }
-    
-    .footer-div-1-1 {
-        width: 100%;
-    }
-    
-    .footer-div-1-1 > ul > li {
-        font-size: 0.8em;
-    }
-    
-    .footer-div-1-2 {
-        width: 100%;
-    }
-    
-    .footer-div-1-2 > ul {
-        margin-left: -10%;
-        padding-left: 22%;
-    }
-    
-    footer {
-        height: 25vh;
-    }
-}
-
-
-
-/** end of my code signed by Nicholas Hernandez **/
+/**/
