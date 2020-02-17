@@ -564,6 +564,7 @@ footer {
 @media screen and (min-device-width: 360px) and (max-device-width: 480px){
 
     footer{
+        margin-top: 20%;
         height:20vh;
     }
 
